@@ -1,38 +1,3 @@
-// const billAmount = document.querySelector('#billAmount');
-// const cashGiven = document.querySelector('#cashGiven');
-// const checkButton = document.querySelector('#checkButton')
-// const message = document.querySelector('#error-message')
-
-// checkButton.addEventListener("click", function validateBillAndCashAmount() {
-//     message.getElementsByClassName.display = "none";
-//     if (billAmount.value>0){
-//         if (cashGiven.value > billAmount.value){
-//                 const amountToBeReturned = cashGiven.value - billAmount.value;
-//                 calculateChange(amountToBeReturned);
-//         }   else{
-//                     showMessage("Cash given cannot be greater than the bill amount")
-//         }
-//     }   else{
-//                 showMessage('Invalid bill amount')
-//     }
-    
-// })
-
-// function showMessage(msg) {
-//     message.style.display = "block";
-//     message.innerText = "Enter valid bill amount";
-// }
-
-// function calculateChange(params) {
-    
-// }
-
-// // billAmount.addEventListener
-
-
-
-
-
 const billAmt = document.querySelector("#billAmt");
 const cashGiven = document.querySelector("#cashGiven");
 

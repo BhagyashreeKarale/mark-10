@@ -1,7 +1,7 @@
 
  :root{
-    --dark-green : black;
-    --faint-green: #ee7919;
+    --dark-black : black;
+    --mustard-orange: #ee7919;
 }
 *{
     font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif; 
@@ -18,20 +18,23 @@ body{
     margin: auto;
     padding: 2rem 1rem;
     text-align: center;
-    background-color: var(--dark-green);
+    background-color: var(--dark-black);
 }
 h1, p{
-    color: white;
-    font-size: 14pt;
+    color:var(--mustard-orange);
+    font-size: 13pt;
 }
 .label{
+    font-weight: bold;
     font-size: 1.3rem;
     padding: 1.5rem 1rem 0.5rem;
-    color: var(--faint-green);
+    color: var(--mustard-orange);
 }
 
 
 input{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 13pt;
     width: 100%;
     padding: 1rem;
@@ -46,9 +49,10 @@ button{
     font-size: 1rem;
     border: none;
     margin: 1rem auto 0;
-    background-color:var(--faint-green);
-    color: var(--dark-green);
-    font-weight: bold;
+    margin-bottom: 2rem;
+    background-color:var(--mustard-orange);
+    color: var(--dark-black);
+    font-weight: bolder;
 }
 
 .cashGivenInput{
@@ -68,9 +72,9 @@ button{
 #output table, th, td{
     font-weight: bold;
     padding: 0.2rem;
-    color: var(--dark-green);
-    background-color:var(--faint-green);
-    border: 2px solid var(--dark-green) ;
+    color: var(--dark-black);
+    background-color:var(--mustard-orange);
+    border: 2px solid var(--dark-black) ;
     border-collapse: collapse;
 }
 .noOfNotes{
@@ -88,5 +92,11 @@ th,td{
 }
 
 h1{
-    font-size: 20pt;
+    padding: 1rem;
+    color: black;
+    background-color: var(--mustard-orange);
+    font-size: 24pt;
+}
+#billInput{
+    margin-bottom: 4rem;
 }
