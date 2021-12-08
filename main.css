@@ -1,7 +1,7 @@
 
  :root{
     --dark-black : black;
-    --mustard-orange: #ee7919;
+    --mustard-orange: #19ee9c;
 }
 *{
     font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif; 
@@ -10,6 +10,7 @@
 body{
     margin-top: 2rem;
 }
+
 
 .section{
     width: 100%;
